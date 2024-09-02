@@ -15,7 +15,7 @@ backend_redis_create() {
 
   sudo su - root <<EOF
   usermod -aG docker deploy
-  docker run -d --name redis-${instancia_add} -p ${redis_port}:6379 redis:latest redis-server --maxmemory 2gb --maxmemory-policy noeviction --requirepass ${mysql_root_password} --maxclients 10000
+  docker run --name redis-${instancia_add} -p ${redis_port}:6379 --restart always --detach redis redis-server --requirepass ${mysql_root_password}
   sleep 2
   sudo su - postgres
   createdb ${instancia_add};
@@ -94,7 +94,7 @@ COMPANY_TOKEN=wtV
 PERFEX_URL=
 PERFEX_MODULE=
 
-VERIFY_TOKEN=whaticket
+VERIFY_TOKEN=Sistema
 
 FACEBOOK_APP_ID=
 FACEBOOK_APP_SECRET=

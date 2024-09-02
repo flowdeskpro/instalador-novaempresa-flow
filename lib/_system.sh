@@ -77,7 +77,7 @@ EOF
 #######################################
 deletar_tudo() {
   print_banner
-  printf "${WHITE} 💻 Vamos deletar o Whaticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos deletar o Sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -123,7 +123,7 @@ EOF
 #######################################
 configurar_bloqueio() {
   print_banner
-  printf "${WHITE} 💻 Vamos bloquear o Whaticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos bloquear o NOVAEMPRESA...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -150,7 +150,7 @@ EOF
 #######################################
 configurar_desbloqueio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Desbloquear o Whaticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos Desbloquear o NOVAEMPRESA...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -176,7 +176,7 @@ EOF
 #######################################
 configurar_dominio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Alterar os Dominios do Whaticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos Alterar os Dominios do NOVAEMPRESA...${GRAY_LIGHT}"
   printf "\n\n"
 
 sleep 2
